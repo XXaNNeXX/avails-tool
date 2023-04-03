@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Bookings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Placements" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Placements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Category"/>
+                <xs:element name="Country"/>
+                <xs:element name="IONO"/>
+                <xs:element name="Placement"/>
+                <xs:element name="CampaignName"/>
+                <xs:element name="AgencyName"/>
+                <xs:element name="Advertiser"/>
+                <xs:element name="StartDate"/>
+                <xs:element name="EndDate"/>
+                <xs:element name="ActualStart"/>
+                <xs:element name="ClicksBkd"/>
+                <xs:element name="ImpresBkd"/>
+                <xs:element name="CPC_M"/>
+                <xs:element name="VerticalCategory"/>
+                <xs:element name="AccountVertical"/>
+                <xs:element name="SalesPerson1"/>
+                <xs:element name="SalesPerson2"/>
+                <xs:element name="SalesPerson3"/>
+                <xs:element name="AccountExec"/>
+                <xs:element name="Currency"/>
+                <xs:element name="BookedValue"/>
+                <xs:element name="UserCountry"/>
+                <xs:element name="AdvertType"/>
+                <xs:element name="ProductName"/>
+                <xs:element name="JanRev"/>
+                <xs:element name="FebRev"/>
+                <xs:element name="MarRev"/>
+                <xs:element name="Qtr1Rev"/>
+                <xs:element name="AprRev"/>
+                <xs:element name="MayRev"/>
+                <xs:element name="JunRev"/>
+                <xs:element name="Qtr2Rev"/>
+                <xs:element name="JulRev"/>
+                <xs:element name="AugRev"/>
+                <xs:element name="SepRev"/>
+                <xs:element name="Qtr3Rev"/>
+                <xs:element name="OctRev"/>
+                <xs:element name="NovRev"/>
+                <xs:element name="DecRev"/>
+                <xs:element name="Qtr4Rev"/>
+                <xs:element name="YearTotal"/>
+                <xs:element name="DeliveryType"/>
+                <xs:element name="JANVolume"/>
+                <xs:element name="JANeng--clicks"/>
+                <xs:element name="JANcompviews--clicks"/>
+                <xs:element name="JANClicks"/>
+                <xs:element name="JANImps"/>
+                <xs:element name="FEBVolume"/>
+                <xs:element name="FEBeng--clicks"/>
+                <xs:element name="FEBcompviews--clicks"/>
+                <xs:element name="FEBClicks"/>
+                <xs:element name="FEBImps"/>
+                <xs:element name="MARVolume"/>
+                <xs:element name="MAReng--clicks"/>
+                <xs:element name="MARcompviews--clicks"/>
+                <xs:element name="MARClicks"/>
+                <xs:element name="MARImps"/>
+                <xs:element name="APRVolume"/>
+                <xs:element name="APReng--clicks"/>
+                <xs:element name="APRcompviews--clicks"/>
+                <xs:element name="APRClicks"/>
+                <xs:element name="APRImps"/>
+                <xs:element name="MAYVolume"/>
+                <xs:element name="MAYeng--clicks"/>
+                <xs:element name="MAYcompviews--clicks"/>
+                <xs:element name="MAYClicks"/>
+                <xs:element name="MAYImps"/>
+                <xs:element name="JUNVolume"/>
+                <xs:element name="JUNeng--clicks"/>
+                <xs:element name="JUNcompviews--clicks"/>
+                <xs:element name="JUNClicks"/>
+                <xs:element name="JUNImps"/>
+                <xs:element name="JULVolume"/>
+                <xs:element name="JULeng--clicks"/>
+                <xs:element name="JULcompviews--clicks"/>
+                <xs:element name="JULClicks"/>
+                <xs:element name="JULImps"/>
+                <xs:element name="AUGVolume"/>
+                <xs:element name="AUGeng--clicks"/>
+                <xs:element name="AUGcompviews--clicks"/>
+                <xs:element name="AUGClicks"/>
+                <xs:element name="AUGImps"/>
+                <xs:element name="SEPVolume"/>
+                <xs:element name="SEPeng--clicks"/>
+                <xs:element name="SEPcompviews--clicks"/>
+                <xs:element name="SEPClicks"/>
+                <xs:element name="SEPImps"/>
+                <xs:element name="OCTVolume"/>
+                <xs:element name="OCTeng--clicks"/>
+                <xs:element name="OCTcompviews--clicks"/>
+                <xs:element name="OCTClicks"/>
+                <xs:element name="OCTImps"/>
+                <xs:element name="NOVVolume"/>
+                <xs:element name="NOVeng--clicks"/>
+                <xs:element name="NOVcompviews--clicks"/>
+                <xs:element name="NOVClicks"/>
+                <xs:element name="NOVImps"/>
+                <xs:element name="DECVolume"/>
+                <xs:element name="DECeng--clicks"/>
+                <xs:element name="DECcompviews--clicks"/>
+                <xs:element name="DECClicks"/>
+                <xs:element name="DECImps"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

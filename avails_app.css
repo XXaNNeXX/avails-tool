@@ -1,0 +1,59 @@
+body {
+    background-color: #022E37;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    color:#17EA58;
+}
+
+label {
+    color:white;
+    margin-right: 10px;
+}
+
+p {
+    color:white;
+    font-weight: bold;
+}
+
+select {
+    width: 150px;
+    height: 25px;
+    color: #002E36;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+option {
+    width: 150px;
+    background-color: white;
+    color: #002E36;
+    font-weight: bold;
+}
+
+#btn {
+    background-color: #17EA58;
+    color: #002E36;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 16px;
+    width: 150px;
+}
+
+#btn:active {
+    transform: translateY(2px);
+}
+
+#demo {
+    height: 25px;
+    width: 150px;
+    font-size: 22px;
+    color: #FFBC22;
+}
+
+#addition {
+    color: red;
+}
